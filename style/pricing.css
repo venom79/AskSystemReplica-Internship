@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #333;
+}
+/* pricing css */
+#pricing{
+    width: 75%;
+    margin: 0px auto;
+    padding: 0px 20px;
+    padding-top: 25px;
+}
+#pricing h2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1em;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+/* Item styling */
+.pricingRow{
+    margin-bottom: 30px;
+    display: flex;
+}
+.pricingCol{
+    width: 33.33%;
+    padding: 0px 10px;
+    text-align: center;
+}
+.pricingItem{
+    border: 1px solid #e6e6e6;
+    margin-bottom: 30px;
+}
+.itemType h3{
+    padding: 22px 0 10px;
+    margin: 20px 0px;
+    letter-spacing: -1px;
+}
+.itemType h3 strong{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 15px;
+}
+.itemPrice{
+    padding: 11px 0 5px;
+}
+.itemPrice h6{
+    font-style: italic;
+    margin: 10px 0px 20px 0px;
+    color: #1499ff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1em;
+}
+.itemFeatures ul{
+    list-style: none;
+}
+.itemFeatures ul li{
+    border-bottom: 1px solid #f5f5f5;
+    font-weight: 400;
+    color: #222;
+    padding: 15px 0px;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.itemBuy{
+    padding: 30px 0px;
+}
+.itemBuy a{
+    text-decoration: none;
+}
+.btn{
+    text-align: center;
+    background: #098ef6;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+}

@@ -1,0 +1,282 @@
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #333;
+}
+a{
+    color: #428bca;
+    text-decoration: none;
+}
+#about{
+    padding-top: 20px;
+}
+.about-container{
+    width: 75%;
+    margin: 0px auto;
+}
+/* -------------------------------------------------------------------------- */
+/* about txt css */
+.aboutText{
+    margin-bottom: 30px;
+}
+.aboutText h3{
+    font-weight: 600;
+    line-height: 1.1em;
+    font-size: 24px;
+    margin: 20px 0px;
+}
+.aboutText p{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8em;
+}
+/* ------------------------------------------------------------------ */
+/* About features css  */
+.about-features{
+    display: flex;
+    background: #f9f9f9;
+    margin: 0 0 30px;
+}
+.featureColImg {
+    width: 60%;
+    height: 340px; 
+    padding-right: 15px;
+    background: url("/Images/No.One\ Digital\ Marketing\ Agency\ in\ India.png") center no-repeat;
+    background-size: cover;
+    align-self: center;
+}
+.featureColTxt{
+    width: 50%;
+    padding: 60px;
+}
+.featureColTxt h3{
+    font-weight: 600;
+    line-height: 1.1em;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.featureItem{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    padding-left: 10px;
+}
+.featureItem h4{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 4px;
+}
+.iconFous{
+    display: block;
+    width: 40px;
+    height: 32px;
+    border: none;
+    margin-right: 10px;
+}
+.iconFous::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    background-image: url(/Images/svgs/aboutus/iconFocus.svg);
+}
+.iconSearch{
+    display: block;
+    width: 40px;
+    height: 32px;
+    border: none;
+    margin-right: 10px;
+}
+.iconSearch::before{
+    content: "";
+    position: absolute;
+    width: 29px;
+    height: 32px;
+    margin: 0px 6px;
+    background-image: url(/Images/svgs/aboutus/searchEngin.svg);
+}
+.iconExpand{
+    display: block;
+    width: 40px;
+    height: 32px;
+    border: none;
+    margin-right: 10px;
+}
+.iconExpand::before{
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 32px;
+    margin: 0px 5px;
+    background-image: url(/Images/svgs/aboutus/expand.svg);
+}
+.iconReact{
+    display: block;
+    width: 40px;
+    height: 32px;
+    border: none;
+    margin-right: 10px;
+}
+.iconReact::before{
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 32px;
+    margin: 0px 5px;
+    background-image: url(/Images/svgs/aboutus/react.svg);
+}
+/* ------------------------------------------------------------------------ */
+/* About - Why choose  us section */
+.aboutRow{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+.aboutCol{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+.aboutCol h3{
+    font-weight: 600;
+    line-height: 1.1em;
+    margin: 20px 0px;
+    font-size: 24px;
+}
+.aboutCol p {
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+
+/* accordian css */
+.solutions-tray{
+    background-color: #f1f1f1;
+    width: 100%;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+.solutions-tray.active .answer{
+    max-height: 300px;
+    animation: fade 0.5s ease-in-out;
+}
+
+.question{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.question h4{
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.question h4:hover{
+    text-decoration: underline;
+}
+.question span{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color:#46aefe;
+    margin-left: 10px;
+}
+.question span::before{
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 14px;
+    margin: 2px 4px;
+    background-image: url(/Images/svgs/aboutus/arrow.svg);
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+.answer p {
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.6em;
+}
+@keyframes fade {
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* ----------------------------------------------------------------- */
+/* our Expertise css */
+.aboutCol h6{
+    font-weight: 600;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.progressBar{
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    background-color: #bdbdbd;
+}
+.progress{
+    background-color: #46aefe;
+    border-radius: 5px;
+    height: 8px;
+}
+/* -------------------------------------------------------------- */
+/* Out Team css */
+.headingTeam{
+    font-weight: 600;
+    line-height: 1.1em;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+}
+.teamCol{
+    padding: 0 20px;
+    width: 25%;
+}
+.team-member{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.team-member img{
+    max-width: 100%;
+    height: auto;
+    display: inline-table;
+    border: 1px solid #c8c8c8;
+    background: 0 0;
+    color: #ef4949;
+    border-bottom: 2px solid #46aefe;
+}
+.Membername{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1em;
+    margin: 5px 0px;
+}
+.degisnation{
+    line-height: 1.6em;
+    font-size: 14px;
+    display: block;
+    font-weight: bold;
+}

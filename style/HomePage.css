@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* Home section css */
+.hero{
+    width: 100%;
+    height: 445px;
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 85px;
+    z-index: -1;
+    width: 100%;
+    height: 445px;
+    background-image: url("/Images/CCTV\ Installation\ Goa\ India-overlayed.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
+    color: white;
+    padding-top: 345px;
+}
+.heroText h3{
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.heroText p{
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 22px;
+    font-weight: 300;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------ */
+/* welcome message css */
+.welcome{
+    background-color: #1499ff;
+    padding: 20px 0 20px 0;
+}
+.message{
+    width: 80%;
+    color: #fff;
+    margin: 20px auto;
+    text-align: center;
+}
+.message h1{
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.message p{
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* services */
+#services{
+    padding: 20px 0;
+}
+.icon{
+    width: 12px;
+}
+.serviceContainer{
+    width: 80%;
+    padding: 0px 10px;
+    margin: 0px auto;
+}
+.serviceContainer h2{
+    text-align: center;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.1em;
+    color: #333;
+    margin: 20px 0px;
+}
+.servDisplay{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px
+}
+.indiService{
+    width: 25%;
+    padding: 0px 10px;
+}
+.box-area{
+    padding: 0px 18px 18px 18px;
+}
+.box-area h3{
+    text-align: center;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.box-area p{
+    text-align: center;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #333;
+}
+/* ----------------------------------------------------------------------- */
+/* icon css */
+.icon1{
+    display: block;
+    width: 94px;
+    height: 94px;
+    background-color: #1e9dff;
+    border: none;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.icon1::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-image: url(/Images/svgs/home/icon1.svg);
+    margin: 19px;
+}
+/* icon 2 */
+.icon2{
+    display: block;
+    width: 94px;
+    height: 94px;
+    background-color: #1e9dff;
+    border: none;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.icon2::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 59px;
+    background-image: url(/Images/svgs/home/icon2.svg);
+    margin: 18px 24px;
+}
+/* icon 3 */
+.icon3{
+    display: block;
+    width: 94px;
+    height: 94px;
+    background-color: #1e9dff;
+    border: none;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.icon3::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-image: url(/Images/svgs/home/icon3.svg);
+    margin: 19px;
+}
+/* icon 4 */
+.icon4{
+    display: block;
+    width: 94px;
+    height: 94px;
+    background-color: #1e9dff;
+    border: none;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.icon4::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    background-image: url(/Images/svgs/home/icon4.svg);
+    margin: 25px 19px;
+}
+
+/*----------------------------------------------------------------------------------  */
+
+/* pakages section css */
+
+#package{
+    padding: 20px 10%;
+    background-color:  #f7f7f7;
+    text-align: center;
+}
+#package h2{
+    margin: 20px 0;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.1em;
+    color: #333;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.plan-display{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items:flex-end;
+}
+.plan{
+    width: 30%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.plan:hover{
+    box-shadow: 1px 1px 5px #ccc;
+    transform: translateY(-2px)
+}
+
+.plan h4{
+    background-color: #00a1ff;
+    color: white;
+    padding: 20px 0 15px 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 600;
+}
+.plan h5{
+    font-family: "Open Sans", Arial, sans-serif;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+.supcrt{
+    font-size: 1.1rem;
+}
+.price{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 200;
+    color: #333;
+    font-size: 4.5rem;
+}
+.earlyPrice{
+    color: #0091e5;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.plan del{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 100;
+    opacity: 0.5;
+    padding-top: 8px;    
+}
+.plan ul{
+    margin-top: 30px;
+    border-top: 1px solid #ccc ;
+}
+.plan ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: "Open Sans", Arial, sans-serif;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* speical Most popular plan */
+.mostPopular{
+    font-family: "Open Sans", Arial, sans-serif;
+    background: #00f;
+    padding: 20px 0 15px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* ----------------------------------------------------------------------- */

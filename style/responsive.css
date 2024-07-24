@@ -1,0 +1,410 @@
+/* home screen responsive css */
+
+/* big screen ( laptop , monitor ) */
+@media only screen and (max-width: 1025px) {
+    .container {
+        width: 90%;
+    }
+    .serviceContainer{
+        width: 95%;
+    }
+    #package{
+        padding: 20px 2%;
+    } 
+}
+
+/* tablets */
+@media only screen and (max-width: 769px) {
+    .logoImg{
+        width: 43%;
+    }
+    .route-list{
+        padding: 34px 0px;
+    }
+    .route{
+        padding: 0;
+        margin: 0;
+    }
+    .hero{
+        height: 210px;
+    }
+    .hero::before{
+        height: 210px;
+    }
+    .heroText {
+        padding-top: 170px;
+        width: 80%;
+    }
+    .heroText h3 {
+        font-size: 22px;
+    }
+    .heroText p{
+        display: none;
+    }
+    .message{
+        width: 90%;
+    }
+    .message h1 {
+        margin-bottom: 20px;
+    }
+    .message p{
+        font-size: 17px;
+    }
+    .servDisplay{
+        flex-direction: column;
+        align-items: center;
+    }
+    .indiService{
+        width: 100%;
+    }
+    .plan-display{
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .footerContainer {
+        width: 95%;
+    }
+    .col p {
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.2rem;
+    }
+    .col p a {
+        font-size: 14px;
+    }
+    .row-sub {
+        padding: 0px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 426px) {
+    .container{
+        flex-direction: column;
+        width: 95%;
+    }
+    .navbar{
+        height: 330px;
+    }
+    .logoImg {
+        width: 15%;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    .route-list{
+        flex-direction: column;
+    }
+    .route-list {
+        padding: 5px 0px;
+    }
+    .route{
+        padding: 2px 0px;
+        margin: 3px 9px;
+    }
+    .route a {
+        display: block;
+        width: 95%;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .hero{
+        height: 152px;
+    }
+    .hero::before{
+        height: 152px;
+        top: 330px;
+    }
+    .heroText{
+        padding-top: 130px;
+    }
+    .heroText h3 {
+        font-size: 14px;
+    }
+    .message{
+        margin: 15px auto;
+    }
+    .message p{
+        text-align: justify;
+        font-size: 16px;
+        line-height: 1.6rem;
+    }
+    .footerContainer{
+        width: 95%;
+        padding: 0;
+    }
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .col{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .col p{
+        text-align: justify;
+    }
+    .col address p{
+        text-align: center;
+    }
+    .col p.footContact{
+        text-align: center;
+    }
+    .row-sub {
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-50{
+        padding: 10px;
+    }
+}
+/* --------------------------------------------- */
+
+/* about us page responsive css */
+
+/* big screen ( laptop , monitor ) */
+@media only screen and (max-width: 1025px){
+    .about-container{
+        width: 95%;
+    }
+    .aboutText h3{
+        font-size: 22px;
+    }
+    .aboutText p{
+        font-size: 14px;
+    }
+    .Banner-hero::before {
+        background-position: -20px -142px;
+    }
+    
+}
+
+/* tablets */
+@media only screen and (max-width: 769px){
+    .featureColImg {
+        display: none;
+    }
+    .aboutRow {
+        flex-direction: column;
+    }
+    .aboutCol{
+        width: 95%;
+    }
+    .flexRev{
+        flex-direction: row;
+    }
+    .Banner-hero::before {
+        background-position: -10px -85px;
+    }
+}
+
+/* mobile L */
+@media only screen and (max-width: 426px){
+    .about-container{
+        padding: 10px;
+        margin: 0px;
+    }
+    .Banner-hero::before {
+        top: 330px;
+        background-position: -20px 0px;
+    }
+    .featureColTxt {
+        width: 100%;
+        padding: 40px;
+    }
+    .aboutCol{
+        padding: 0px 10px;
+    }
+    .flexRev{
+        flex-direction: column;
+    }
+    .teamCol {
+        padding: 0 20px;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}
+
+/* mobile M*/
+@media only screen and (max-width: 376px){
+    .about-container{
+        padding: 8px;
+    }
+    .featureColTxt{
+        padding: 30px;
+    }
+}
+
+/* mobile S*/
+@media only screen and (max-width: 321px){
+    .Banner-hero::before{
+        background-position: -56px 0px;
+    }
+    .featureColTxt {
+        padding: 10px;
+    }
+    .aboutCol {
+        padding: 0px 8px;
+    }
+    .featureItem h4{
+        font-size: 14px;
+    }
+    .iconFous{
+        width: 28px;
+        height: 22px;
+    }
+    .iconFous::before{
+        width: 28px;
+        height: 22px;
+    }
+    .iconSearch{
+        width: 28px;
+        height: 22px;
+    }
+    .iconSearch::before{
+        width: 20px;
+        height: 24px;
+        margin: 0px 4px;
+    }
+    .iconExpand{
+        width: 28px;
+        height: 22px;
+    }
+    .iconExpand::before{
+        width: 22px;
+        height: 22px;
+        margin: 0px 3px;
+    }
+    .iconReact{
+        width: 28px;
+        height: 22px;
+    }
+    .iconReact::before{
+        width: 22px;
+        height: 23px;
+        margin: 0px 3px
+    }
+}
+
+
+/* --------------------------------------------- */
+/* services page responsive css */
+
+/* big screen ( laptop , monitor ) */
+@media only screen and (max-width: 1025px){
+    .servicesRow{
+        padding: 0;
+    }
+}
+
+/* tablets */
+@media only screen and (max-width: 769px){
+    .servicesRow {
+        flex-direction: column;
+    }
+    .servicesCol {
+        width: 95%;
+    }
+    .flexInfo {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* mobile M*/
+@media only screen and (max-width: 376px){
+    .servicesCol {
+        padding: 0px 10px;
+    }
+}
+
+
+
+/* --------------------------------------------- */
+/* pricing page responsive css */
+
+/* big screen ( laptop , monitor ) */
+@media only screen and (max-width: 1025px){
+    #pricing {
+        width: 95%;
+        padding: 0;
+        padding-top: 25px;
+    }
+    .pricingCol {
+        padding: 0px 5px;
+    }
+}
+
+/* tablets */
+@media only screen and (max-width: 769px){
+    #pricing h2 {
+        text-align: center;
+    }
+    .pricingRow {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricingCol {
+        width: 70%;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 426px){
+    .pricingCol {
+        width: 80%;
+    }
+}
+
+/* mobile M*/
+@media only screen and (max-width: 376px){
+    .pricingCol {
+        width: 90%;
+    }
+}
+
+/* mobile S*/
+@media only screen and (max-width: 321px){
+    .pricingCol {
+        width: 100%;
+    }
+}
+
+
+/* --------------------------------------------- */
+/* contact us page responsive css */
+
+/* big screen ( laptop , monitor ) */
+@media only screen and (max-width: 1025px){
+    .container-contact {
+        width: 95%;
+    }
+}
+
+/* tablets */
+@media only screen and (max-width: 769px){
+    .row-contact {
+        flex-direction: column;
+    }
+    .col-contact {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 426px){
+    .container-contact {
+        width: 90%;
+        padding: 0px 10px;
+    }
+    .form-control{
+        width: 93%;
+    }
+}

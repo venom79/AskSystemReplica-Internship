@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar css */
+.navbar{
+    height: 85px;
+}
+.container{
+    width: 75%;
+    height: 85px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.route-list{
+    padding: 25px 0px;
+    display: flex;
+}
+.route{
+    list-style: none;
+    padding: 4px;
+    margin: 4px;
+}
+
+.route a{
+    color: #3a3a3a;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.route a:hover{
+    color: #428bca;
+}
+.route a.active{
+    text-decoration: none;
+    background: #098ef6;
+    color: #fff;
+}
+.logo-circle{
+    border-top: 0;
+    border-radius: 50%;
+}
+.logoImg{
+    width: 95%;
+    border-radius: 50%;
+    cursor: pointer;
+}
